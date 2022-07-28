@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "nodemon backend/server.js",
     "client": "npm start --prefix frontend"
-
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +19,7 @@
     "mongoose": "^6.4.0"
   },
   "devDependencies": {
+    "concurrently": "^7.3.0",
     "nodemon": "^2.0.18"
   }
 }
